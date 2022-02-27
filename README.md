@@ -1,5 +1,5 @@
 # SETUP JSON  SERVER 🤩
-------
+
 - npm i -g json-server
 - npm init
 - git init
@@ -47,5 +47,9 @@ Deploy Heruku:
     npm uninstall casual (xóa ở devDependencies)
     npm i casual (thêm vào dependencies)
     ```
+- lỗi port: search "heroku port env" thêm vào main.js:
+    ```
+    const PORT = process.env.PORT || 3000;
+    ```
 
-##### ❤️❤️❤️ Happy Coding! ❤️❤️❤️
+### ❤️❤️❤️ Happy Coding! ❤️❤️❤️
