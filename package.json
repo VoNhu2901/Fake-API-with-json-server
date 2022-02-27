@@ -6,14 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon main.js",
-    "start": "node main.js"
+    "start": "npm run generate-data && nodemon main.js",
+    "generate-data": "node generate-data.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "json-server": "^0.17.0"
   },
   "devDependencies": {
+    "casual": "^1.6.2",
     "nodemon": "^2.0.15"
   }
 }

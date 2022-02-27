@@ -1,38 +1,120 @@
 {
   "categories": [
     {
-      "id": 1,
-      "name": "Fruits",
-      "created_at": "2020-05-20T12:00:00.000Z",
-      "updated_at": "2020-05-20T12:00:00.000Z"
+      "id": "729d8610-14f0-4a9f-99ef-75528bc1ce1b",
+      "name": "Rem dolore id",
+      "createAt": "1990-09-09",
+      "updateAt": "1979-01-17"
+    },
+    {
+      "id": "480c41d0-1f9f-4aeb-934a-776fc9979521",
+      "name": "Neque beatae minus",
+      "createAt": "2002-01-21",
+      "updateAt": "1994-03-28"
+    },
+    {
+      "id": "9cf10174-d7e6-4d6a-a461-136e5d98f2bb",
+      "name": "Tempora et",
+      "createAt": "1987-05-25",
+      "updateAt": "1995-11-21"
     }
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Leafy green",
-      "price": 10,
-      "description": "This is a fruit",
-      "category_id": 1,
-      "created_at": "2020-05-20T12:00:00.000Z",
-      "updated_at": "2020-05-20T12:00:00.000Z"
+      "categoryId": "729d8610-14f0-4a9f-99ef-75528bc1ce1b",
+      "name": "Laboriosam accusantium iste",
+      "price": 47,
+      "color": "CadetBlue",
+      "description": "Id enim illo vero beatae aut quas id. Quae perspiciatis deserunt eius. Optio ullam quo natus voluptas minima repudiandae sapiente.",
+      "image": "http://Wilbert.org/"
     },
     {
-      "id": 2,
-      "name": "Orange",
-      "price": 20,
-      "description": "This is a fruit",
-      "category_id": 1,
-      "created_at": "2020-05-20T12:00:00.000Z",
-      "updated_at": "2020-05-20T12:00:00.000Z"
-    }
-  ],
-  "profile": [
+      "categoryId": "729d8610-14f0-4a9f-99ef-75528bc1ce1b",
+      "name": "Sed molestiae ea",
+      "price": 5,
+      "color": "Chocolate",
+      "description": "Quibusdam eveniet et ea et a doloribus voluptatem hic. Totam eum sit minus sint et necessitatibus sint. Illum sit autem explicabo rerum aliquam. Ad unde enim et suscipit cum.",
+      "image": "http://Sophia.tv/"
+    },
     {
-      "id": 1,
-      "name": "John Doe",
-      "email": "vonhu.alien@gmail.com",
-      "password": "$2a$10$X"
+      "categoryId": "729d8610-14f0-4a9f-99ef-75528bc1ce1b",
+      "name": "Harum in",
+      "price": 14,
+      "color": "DimGrey",
+      "description": "Quo eum quod et quas et et aliquid omnis. Praesentium soluta qui repellendus dicta rerum omnis a itaque qui.",
+      "image": "http://Mohr.com/"
+    },
+    {
+      "categoryId": "729d8610-14f0-4a9f-99ef-75528bc1ce1b",
+      "name": "Sit nam qui",
+      "price": 98,
+      "color": "HotPink",
+      "description": "Aliquam sint aut officia nisi repellendus. Iusto dolores voluptas. Repellat debitis voluptas non dolores.",
+      "image": "http://Fatima.co.uk/"
+    },
+    {
+      "categoryId": "480c41d0-1f9f-4aeb-934a-776fc9979521",
+      "name": "Velit sunt omnis",
+      "price": 16,
+      "color": "DarkKhaki",
+      "description": "Est qui rerum suscipit et corporis aut qui similique quasi. Optio temporibus dolore eos impedit nihil illum nostrum culpa. Praesentium amet ut magni est. Dolor qui et.",
+      "image": "http://www.Kassulke.info/"
+    },
+    {
+      "categoryId": "480c41d0-1f9f-4aeb-934a-776fc9979521",
+      "name": "Velit ut consequatur",
+      "price": 65,
+      "color": "LightBlue",
+      "description": "Vitae maxime velit eos. Occaecati voluptatem id minus sed dolor atque perferendis cum. Neque voluptatem doloremque atque. Velit ipsam eaque exercitationem totam amet recusandae facere.",
+      "image": "http://www.Conrad.org/"
+    },
+    {
+      "categoryId": "480c41d0-1f9f-4aeb-934a-776fc9979521",
+      "name": "Autem consequatur",
+      "price": 66,
+      "color": "DarkViolet",
+      "description": "Cupiditate nam sit debitis vel. Aperiam nesciunt fugit vel odio quaerat commodi recusandae accusamus. Culpa ut sed velit ad vitae expedita aperiam qui aut.",
+      "image": "http://www.Morton.info/"
+    },
+    {
+      "categoryId": "480c41d0-1f9f-4aeb-934a-776fc9979521",
+      "name": "Velit sit",
+      "price": 64,
+      "color": "RosyBrown",
+      "description": "Maxime tenetur quia id ipsam quos ipsum. Rerum fugiat aperiam totam doloremque laborum est excepturi. Deserunt velit illum eum. Enim et et sint non at recusandae cumque facere.",
+      "image": "http://Matteo.us/"
+    },
+    {
+      "categoryId": "9cf10174-d7e6-4d6a-a461-136e5d98f2bb",
+      "name": "Velit deleniti aut",
+      "price": 36,
+      "color": "LightGoldenRodYellow",
+      "description": "Nam sequi id quidem sunt id eos. Veritatis cumque corporis molestiae rem. Voluptatem unde sint ut nulla autem sunt.",
+      "image": "http://www.Powlowski.io/"
+    },
+    {
+      "categoryId": "9cf10174-d7e6-4d6a-a461-136e5d98f2bb",
+      "name": "Fugit id possimus",
+      "price": 41,
+      "color": "SkyBlue",
+      "description": "Deleniti qui nisi qui nisi similique adipisci consequuntur. Voluptas maxime quo aut. Cupiditate aspernatur et labore omnis saepe. Et quisquam tempora voluptatem asperiores. Modi et id fugit reiciendis nobis quam quia quam.",
+      "image": "http://www.Jeremy.net/"
+    },
+    {
+      "categoryId": "9cf10174-d7e6-4d6a-a461-136e5d98f2bb",
+      "name": "Iusto itaque perferendis",
+      "price": 76,
+      "color": "Orchid",
+      "description": "Ullam placeat quia temporibus doloribus. Officia sint natus aut iusto qui. Pariatur velit neque qui ratione ut incidunt iure. Qui et natus accusamus ad molestias et est eum amet. Quo accusamus fuga perferendis.",
+      "image": "http://Ryann.co.uk/"
+    },
+    {
+      "categoryId": "9cf10174-d7e6-4d6a-a461-136e5d98f2bb",
+      "name": "Dolore sunt et",
+      "price": 20,
+      "color": "Silver",
+      "description": "Mollitia dolores laboriosam adipisci ex ipsam illo sequi. Expedita quis aut qui aut perferendis iusto. Ipsam delectus totam necessitatibus. Commodi facilis eaque odit rerum officiis veritatis. Qui aut id id.",
+      "image": "http://www.Kristin.io/"
     }
   ]
 }
