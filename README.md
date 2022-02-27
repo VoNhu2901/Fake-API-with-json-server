@@ -1,3 +1,5 @@
+# SETUP JSON  SERVER 🤩
+
 npm i -g json-server
 npm init
 git init
@@ -25,3 +27,8 @@ Filter in folder api-collection: q là toàn bộ , (title)_like là 1 phần m�
 POST => có thêm createAt và UpdateedAt trong file main.js (làm theo Module-Custom routes example)
 PATCh => có thêm updatedAt
 cấu hình thêm file .prettierrc (vào trang Prettier -> Playground)
+---
+Custom db.json khi phân trang để biết các thông tin như tổng số trang, đang trang nào (gọi là "Endpoint listing"):
+npm i query-string : để parse từ string sang object
+
+❤️❤️❤️ Happy Coding! ❤️❤️❤️
