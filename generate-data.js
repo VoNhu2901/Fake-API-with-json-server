@@ -10,7 +10,6 @@ casual.define("category", function () {
   };
 });
 
-console.log(casual.category);
 
 // Create a list of products
 casual.define("product", function (id) {
