@@ -21,3 +21,7 @@ thay doi trong file package.json 2 dong nay:
 }
 ---
 Filter in folder api-collection: q là toàn bộ , (title)_like là 1 phần mà có trong title
+---
+POST => có thêm createAt và UpdateedAt trong file main.js (làm theo Module-Custom routes example)
+PATCh => có thêm updatedAt
+cấu hình thêm file .prettierrc (vào trang Prettier -> Playground)

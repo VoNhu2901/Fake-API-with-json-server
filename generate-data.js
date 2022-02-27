@@ -6,9 +6,7 @@ const fs = require("fs");
 casual.define("category", function () {
   return {
     id: casual.uuid,
-    name: casual.title,
-    createAt: casual.date("YYYY-MM-DD"),
-    updateAt: casual.date("YYYY-MM-DD"),
+    name: casual.title    
   };
 });
 
@@ -18,13 +16,12 @@ console.log(casual.category);
 casual.define("product", function (id) {
   return {
     categoryId: id,
+    id: casual.uuid,
     name: casual.category.name,
     price: casual.integer(1, 100),
     color: casual.color_name,
     description: casual.description,
-    image: casual.url,
-    createAt: casual.date("YYYY-MM-DD"),
-    updateAt: casual.date("YYYY-MM-DD"),
+    image: casual.url    
   };
 });
 

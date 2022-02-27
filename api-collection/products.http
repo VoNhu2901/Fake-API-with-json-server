@@ -24,6 +24,7 @@ GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=desc
 
 # @name operations
 GET {{baseUrl}}/{{resourceName}}?name_like=Autem&price_gte=50&price_lte=100
+###
 
 
 # @name addNew
@@ -31,16 +32,18 @@ POST {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 {
-  "name": "Product 1",
-  "description": "Product 1 description",
-  "price": "100",
-  "image": "http://localhost:3000/api/products/1/image"
+  "categoryId": "729d8610-14f0-4a9f-99ef-75528bc1ce1b",
+      "name": "NEW 1",
+      "price": 47,
+      "color": "CadetBlue",
+      "description": "Id enim illo vero beatae aut quas id. Quae perspiciatis deserunt eius. Optio ullam quo natus voluptas minima repudiandae sapiente.",
+      "image": "http://Wilbert.org/"
 }
 ###
 
 
 # @name update
-PATCH {{baseUrl}}/{{resourceName}}/3
+PATCH {{baseUrl}}/{{resourceName}}/q50eGy0
 Content-Type: application/json
 
 {
@@ -49,5 +52,5 @@ Content-Type: application/json
 
 ###
 # @name delete
-DELETE {{baseUrl}}/{{resourceName}}/3
+DELETE {{baseUrl}}/{{resourceName}}/q50eGy0
 Content-Type: application/json
