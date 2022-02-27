@@ -12,12 +12,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "casual": "^1.6.2",
     "fs": "^0.0.1-security",
     "json-server": "^0.17.0",
     "query-string": "^7.1.1"
   },
   "devDependencies": {
-    "casual": "^1.6.2",
     "nodemon": "^2.0.15"
   }
 }

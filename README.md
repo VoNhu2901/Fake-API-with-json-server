@@ -40,4 +40,12 @@
 - Custom db.json khi phân trang để biết các thông tin như tổng số trang, đang trang nào (gọi là "Endpoint listing"):
 - npm i query-string : để parse từ string sang object
 
+---
+Deploy Heruku:
+- fix lỗi deploy: packagelog.json sửa "casual" trong "devDependencies" lên "dependencies":
+    ```
+    npm uninstall casual (xóa ở devDependencies)
+    npm i casual (thêm vào dependencies)
+    ```
+
 ##### ❤️❤️❤️ Happy Coding! ❤️❤️❤️
